@@ -1,4 +1,4 @@
-import type { MinimalGameInfo, SteamUserApiResponse } from '../interfaces/api-responses';
+import type { SteamUserApiResponse } from '../interfaces/api-responses';
 
 import { MY_STEAM_ID, STEAM_API_KEY } from '$env/static/private';
 import { APIError } from './exceptions';
